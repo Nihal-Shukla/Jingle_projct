@@ -1,0 +1,85 @@
+.message-box{
+    height: 300px;
+    width: 100vw;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.phone,.mail,.location{
+    height: 80%;
+    width: 20%;
+    border: 1px solid black;
+    box-shadow: 10px 10px rgba(128, 128, 128, 0.24);
+    
+}
+
+#font{
+    font-size: 30px;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+
+
+
+.message{
+    height: 100px;
+    width: 100vw;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(128, 128, 128);
+    color: aliceblue;
+}
+
+.form{
+    height: 450px;
+    width: 80%;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    margin-left: 10%;
+    background-color: #1a2849;
+}
+
+input{
+    height: 50px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: #ffedc6 ;
+    font-size: 20px;
+    border: none;
+}
+
+textarea{
+    height: 80px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: #ffedc6 ;
+    font-size: 20px;
+}
+
+.button{
+    height: 50px;
+    width: 150px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-left :45%; 
+    background-color: blue;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 27px;
+}
+.button:hover{
+    background-color: green;
+}
